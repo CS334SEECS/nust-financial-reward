@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUST Financial Reward</title>
+
+  <!--For loading the Ubuntu font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS for the page -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+      <div class="container-heading">NUST FINANCIAL REWARD</div>
+      <div class="form-container">
+          <form action="" method="get">
+              <table>
+                  <tr>
+                      <td class="heading" colspan="4">Form</td>
+                  </tr>
+
+                  <tr>
+                      <td><label for="paper_title">Title of Paper: </label></td>
+                      <td><input type="text" name="paper_title" id="paper_title" required></td>
+                      <td><label for="author_name">Author Name: </label></td>
+                      <td><input type="text" name="author_name" id="author_name" required></td>
+                  </tr>
+
+                  <tr>
+                      <td><label for="journal_name">Journal: </label></td>
+                      <td><input type="text" name="journal_name" id="journal_name" required></td>
+                      <td><label for="total_authors">Total no. of Authors: </label></td>
+                      <td><input type="text" name="total_authors" id="total_authors" required></td>
+                  </tr>
+
+                  <tr>
+                      <td><label for="issn">ISSN: </label></td>
+                      <td><input type="text" name="issn" id="issn" required></td>
+                      <td><label for="paper_url">URL of Paper: </label></td>
+                      <td><input type="text" name="paper_url" id="paper_url" required></td>
+                  </tr>
+
+                  <tr>
+                      <td><label for="vol">Vol: </label></td>
+                      <td><input type="text" name="vol" id="vol" required></td>
+                      <td><label for="paper_doi">DOI of Paper: </label></td>
+                      <td><input type="text" name="paper_doi" id="paper_doi" required></td>
+                  </tr>
+
+                  <tr>
+                      <td><label for="pages">Pages: </label></td>
+                      <td><input type="number" name="pages" id="pages" required></td>
+                      <td><label for="submission_date">Date of form submission: </label></td>
+                      <td><input type="date" name="submission_date" id="submission_date" required></td>
+                  </tr>
+
+                  <tr>
+                      <td><label for="publication_date">Publication date: </label></td>
+                      <td><input type="date" name="publication_date" id="publication_date" required></td>
+                      <td><label for="signature">Signature image of applicant: </label></td>
+                      <td>
+                          <div class="upload-btn-wrapper">
+                              <div class="upload-btn">Upload image</div>
+                              <input type="file" name="signature" id="signature" accept="image/*" required />
+                          </div>
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <th colspan="4">Indexation Details</th>
+                  </tr>
+
+                  <tr>
+                      <td><label for="impact_factor">Impact factor: </label></td>
+                      <td><input type="text" name="impact_factor" id="impact_factor" required></td>
+                      <td><label for="journal_quartile">Journal quartile in the Category: </label></td>
+                      <td><input type="text" name="journal_quartile" id="journal_quartile" required></td>
+                  </tr>
+
+                  <tr>
+                      <td><label for="category">Category: </label></td>
+                      <td><input type="text" name="category" id="category" required></td>
+                      <td><label for="total_journals">Total Journals in the Category: </label></td>
+                      <td><input type="number" name="total_journals" id="total_journals" required></td>
+                  </tr>
+
+                  <tr>
+                      <td><label for="position">Position: </label></td>
+                      <td><input type="text" name="position" id="position" required></td>
+                  </tr>
+
+                  <tr>
+                      <th colspan="4">Similarity Index: </th>
+                  </tr>
+
+                  <tr>
+                      <td><label for="similarity_index">Similarity Index: </label></td>
+                      <td><input type="text" name="similarity_index" id="similarity_index" required></td>
+                      <td><label for="publications">Publications: </label></td>
+                      <td><input type="text" name="publications" id="publications" required></td>
+                  </tr>
+
+                  <tr>
+                      <td><label for="internet_sources">Internet Sources: </label></td>
+                      <td><input type="text" name="internet_sources" id="internet_sources" required></td>
+                      <td><label for="student_papers">Student Papers: </label></td>
+                      <td><input type="text" name="student_papers" id="student_papers" required></td>
+                  </tr>
+
+                  <tr><td colspan="4"><div class="submit-btn"><input type="submit" value="Submit"></div></td>
+                  </tr>
+              </table>
+          </form>
+      </div>
+  </div>
+</body>
+
+</html>
