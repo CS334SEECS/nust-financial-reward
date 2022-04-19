@@ -1,0 +1,51 @@
+#header
+{
+    background-color: rgb(36, 176, 211) !important;
+    padding: 1.5% 0 1.5% 0;
+}
+#headertext
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Times, serif;
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+}
+.bodycolor
+{
+    background-color: rgb(219, 255, 255) !important;
+    width: 98.5% !important;
+}
+#Formdiv
+{
+    border-radius:20px;
+    background-color: white !important;
+    margin-top: 1.5%;
+    padding: 4%;
+}
+#leftsec
+{
+    float: left;
+    width: 48%;
+}
+#rightsec
+{
+    float: right;
+    width: 48%;
+    margin-left: 4%;
+}
+.formleftsec
+{
+    float: left;
+    width: 39%;
+    font-family:  Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.formrightsec
+{
+    float: right;
+    width: 59%;
+}
+.formrow
+{
+    margin-top: 5%;
+}

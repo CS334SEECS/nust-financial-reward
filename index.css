@@ -1,0 +1,120 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{            
+    background: rgba(236, 240, 247, 0.476783);
+}
+
+.container-heading{
+    background: linear-gradient(180deg, #398BEB 0%, rgba(85, 128, 212, 0.476783) 89.03%, rgba(0, 0, 0, 0) 100%);
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    color:#FFFFFF;
+    margin-bottom: 2%;
+}
+
+.table-container{
+    width: 100%;
+    margin: auto;   
+    border: 2px solid black;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.form-container{
+    width: 95%;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;           
+}
+
+.form-container table{
+    width: 99%;
+    margin: auto;
+    padding: 20px;
+}
+
+tr > td{
+    padding: 30px;
+    font-size: 18px;
+}
+
+tr > td > label{
+    text-align: center;
+    font-size: 18px;
+}
+
+tr > td > input[type=text],input[type=number],input[type=date]{
+    position: relative;
+    width: 250px;
+    margin-right: 10px;
+    height: 30px;
+    background: rgba(236, 240, 247, 0.476783);
+    border: 1px solid #5580D47A;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+
+
+}
+
+tr > th{
+    padding: 30px;
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: left;
+}
+
+.submit-btn{
+    text-align: center;
+    margin: auto;
+}
+
+.submit-btn input[type=submit]{
+    background: rgba(126, 246, 83, 0.52);
+    border: 1px solid rgba(203, 221, 197, 0.52);
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 20%;
+    height: 40px;
+    font-size: 18px;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+
+.upload-btn {
+    background: rgba(126, 246, 83, 0.52);
+    border: 1px solid rgba(203, 221, 197, 0.52);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 50%;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 80%;
+    border: 4px solid black;
+    margin:auto;
+}
